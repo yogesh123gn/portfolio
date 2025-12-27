@@ -1,0 +1,194 @@
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 300 to 700 */
+
+.fredoka-fred {
+  font-family: "Fredoka", sans-serif;
+  font-size: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+  font-family: 'Fredoka', cursive;
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  background: -webkit-linear-gradient(41deg, rgba(0, 255, 144, 1) 20%, rgba(0, 120, 255, 1) 50%, rgba(141, 0, 255, 1) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+p {
+  font-size: 20px;
+  color: #666;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+header li {
+  display: inline;
+  list-style: none;
+  margin: 10px 10px;
+}
+
+
+header li a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+header li a:hover {
+  color: rgba(0, 120, 255, 1) 50%;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav {
+  width: 25%;
+  padding-top: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 15px 10px 15px;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: black;
+}
+
+.socials img {
+  width: 30px;
+  height: 30px;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icons p {
+  text-align: center;
+}
+
+.vl {
+  border-left: 3px solid rgb(0, 145, 255);
+  height: 420px;
+  left: 213px;
+  top: 220px;
+  opacity: 0.3;
+  position: absolute;
+}
+
+
+.star {
+  height: 50px;
+  width: 50px;
+  top: 750px;
+  left: 176px;
+  position: absolute;
+}
+
+.star img {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  opacity: 0.5;
+}
+
+.star1 {
+  height: 50px;
+  width: 50px;
+  top: 220px;
+  left: 167px;
+  position: absolute;
+}
+
+.star1 img {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+}
+
+.skills {
+  margin-top: 200px;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.skills li {
+  list-style-type: none;
+  margin: 10px 10px;
+
+}
+
+.skills li:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.horizon {
+  margin-left: 60px;
+}
+
+.projects {
+  margin-top: 200px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card {
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.7s ease-out;
+}
+
+.contact {
+  margin-top: 200px;
+}
+
+.card-header img {
+  border-radius: 15px 30px;
+}
