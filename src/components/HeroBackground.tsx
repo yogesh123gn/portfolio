@@ -9,7 +9,7 @@ const HeroBackground = () => {
     const rightVortexPaths = [];
 
     // Animation variants
-    const drawVariant = {
+    const drawVariant: any = {
         hidden: { pathLength: 0, opacity: 0 },
         visible: (i: number) => {
             const baseOpacity = 0.2 + (i / 60) * 0.6; // Increased max opacity slightly
@@ -24,7 +24,7 @@ const HeroBackground = () => {
         }
     };
 
-    const rightDrawVariant = {
+    const rightDrawVariant: any = {
         hidden: { pathLength: 0, opacity: 0 },
         visible: (i: number) => {
             const baseOpacity = 0.1 + (i / 60) * 0.7;
@@ -40,7 +40,7 @@ const HeroBackground = () => {
     };
 
     // Refined floating animation
-    const floatTransition = {
+    const floatTransition: any = {
         y: {
             duration: 10,
             repeat: Infinity,
